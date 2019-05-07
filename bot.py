@@ -162,7 +162,7 @@ def message_gen(bot, update, args):
 
 
 def main():
-    updater = Updater("542333278:AAH4sv5rvwq-zv1ZTygBO2Nu0EQoVrkIEZE")
+    updater = Updater("BOT-TOKEN-HERE")
     dp = updater.dispatcher
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler('start', start)],
